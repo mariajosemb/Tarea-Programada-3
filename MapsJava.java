@@ -12,8 +12,9 @@ import org.w3c.dom.Document;
 import org.w3c.dom.NodeList;
 
 /**
- * SUPERCLASE donde se extienden el resto. 
- * @author Maria Jose M.
+ * Clase padre desde donde se extienden el resto. Sirve principalmente para asignar/obtener propiedades básicas
+ * a la hora de realizar una petición (clave, sensor, idioma, etc.) y para obtener un registro de todas las peticiones realizadas
+ * @author Luis Marcos
  */
 public abstract class MapsJava {
 
@@ -22,7 +23,7 @@ public abstract class MapsJava {
     private static String region="es";
     private static String language="es";
     private static Boolean sensor= Boolean.FALSE;
-    private static String APIKey="AIzaSyDsCP3FRa7vTU_xngoPYWijXfLNd5uoLeg";
+    private static String APIKey="";
     
     //Stock request
     private static String[][] stockRequest=new String[0][6];

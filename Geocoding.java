@@ -16,8 +16,7 @@ import org.w3c.dom.Document;
 import org.w3c.dom.NodeList;
 
 /**
- * El uso del API de codificación geográfica de Google está sujeto a un límite de 2.500 solicitudes de codificación geográfica al día.<br/>
- * El API de codificación geográfica solo se puede utilizar en combinación con un mapa de Google.
+
  * @author Luis Marcos
  * @see MapsJava
  */
